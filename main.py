@@ -242,3 +242,4 @@ class Pawn(Piece):
 
 # This was non-cli friendly: uniDict = {WHITE : {Pawn : "♙", Rook : "♖", Knight : "♘", Bishop : "♗", King : "♔", Queen : "♕" }, BLACK : {Pawn : "♟", Rook : "♜", Knight : "♞", Bishop : "♝", King : "♚", Queen : "♛" }}
 uniDict = {WHITE : {Pawn : "P1", Rook : "R1", Knight : "K1", Bishop : "B1", King : "KI1", Queen : "Q1" }, BLACK : {Pawn : "P2", Rook : "R2", Knight : "K2", Bishop : "B2", King : "KI2", Queen : "Q2" }}
+Game()
