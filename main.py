@@ -240,4 +240,5 @@ class Pawn(Piece):
         if (x,y+self.direction) not in gameboard and Color == self.Color : answers.append((x,y+self.direction))# the condition after the and is to make sure the non-capturing movement (the only fucking one in the game) is not used in the calculation of checkmate
         return answers
 
-uniDict = {WHITE : {Pawn : "♙", Rook : "♖", Knight : "♘", Bishop : "♗", King : "♔", Queen : "♕" }, BLACK : {Pawn : "♟", Rook : "♜", Knight : "♞", Bishop : "♝", King : "♚", Queen : "♛" }}
+# This was non-cli friendly: uniDict = {WHITE : {Pawn : "♙", Rook : "♖", Knight : "♘", Bishop : "♗", King : "♔", Queen : "♕" }, BLACK : {Pawn : "♟", Rook : "♜", Knight : "♞", Bishop : "♝", King : "♚", Queen : "♛" }}
+uniDict = {WHITE : {Pawn : "P1", Rook : "R1", Knight : "K1", Bishop : "B1", King : "KI1", Queen : "Q1" }, BLACK : {Pawn : "P2", Rook : "R2", Knight : "K2", Bishop : "B2", King : "KI2", Queen : "Q2" }}
